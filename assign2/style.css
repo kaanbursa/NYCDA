@@ -1,0 +1,96 @@
+ul.menuul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li.menuli {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li.menuli a:hover {
+    background-color: #111111;
+}
+
+h1.Name {
+	text-align: center;
+	font-size: 48px;
+	border: 1px;
+	color: white;
+	background-image: url("http://blog.oup.com/wp-content/uploads/2015/09/1260_istanbul.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	vertical-align: middle;
+}
+
+h2{
+	
+	color: white;
+}
+
+.personal {
+	font-size: 20px;
+	background-color: #4B5043;
+	height: 250px;
+	color: white;
+	vertical-align: middle;
+}
+
+.hobbies {
+	font-size: 20px;
+	background-color: #9BC1BC;
+	height: 250px;
+	color: white;
+	vertical-align: middle;
+}
+
+.designandlive {
+	font-size: 20px;
+	background-color: #5A2328;
+	height: 250px;
+	color: white;
+	vertical-align: middle;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: 140px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+div.row {
+padding-top: 50px;
+	text-align: center;
+}
+#submit_button {
+	padding-top: 50px;
+	display: block;
+    margin: auto;
+    width: 30%;
+	color: grey;
+}
