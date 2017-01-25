@@ -1,7 +1,171 @@
-#firstanswer {
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+.answer {
 	display: none;
 }
 
-.hide{
-	display: none;
+
+
+.faq {
+	z-index: 50;
+	height: 500px;
+	background-color: #e8edf3;
+	position: relative;
+	width: 100%;
+	top:50px;
 }
+
+
+
+.headPage {
+	font-size: 40px;
+	text-align: center;
+}
+
+.topMain{
+	height: 500px;
+	z-index: 100;
+	background-color: #008080;
+	top:50px;
+	position: relative;
+	
+
+}
+.jumbotron {
+	background-color: #008080;
+	color: white;
+	position: absolute;
+	
+	margin-bottom: 0;
+	width: 100%;
+	
+	
+	
+	
+}
+
+
+#profileImage1{
+	width: 200px;
+	height: 200px;
+	border-radius: 35px;	
+}
+
+
+
+.topNavbar {
+	
+	margin-bottom: 0px;
+	width: 100%;
+	opacity: 0.8;
+	z-index: 99;
+	height: 50px;
+
+}
+
+
+
+.header{
+	position: fixed;
+	width: 100%;
+	z-index: 98;
+
+}
+
+.container{
+	height: 400px;
+	z-index: 90;
+	background-color: white;
+	top:50px;
+}
+
+#works {
+	background-color: #012A36;
+	color: white;
+	height: 500px;
+}
+
+
+
+.contactInfo{
+	background-color: #13262F;
+	height: 200px;
+}
+
+.emailAdd {
+	color:white;
+	margin-top: 20px;
+}
+
+.emailAdd:hover{
+	color: #FEFCFB;
+}
+
+.counter {
+	background-color: transparent !important;
+}
+
+.col_half { width: 49%; }
+.col_third { width: 32%; }
+.col_fourth { width: 23.5%; }
+.col_fifth { width: 18.4%; }
+.col_sixth { width: 15%; }
+.col_three_fourth { width: 74.5%;}
+.col_twothird{ width: 66%;}
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth{
+	position: relative;
+	display:inline;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+.end { margin-right: 0 !important; }
+/* Column Grids End */
+
+.wrapper { width: 980px; margin: 30px auto; position: relative;}
+.counter { background-color: #ffffff; padding: 20px 0; border-radius: 5px;}
+.count-title { font-size: 40px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
+
+
+.works {
+    margin: 5px;
+    float: left;
+    width: 24%;
+    opacity: 0;
+    margin-top: 25px;
+    
+}
+
+.works.img {
+	width: 100px;
+	height: 100px;
+}
+
+div.works:hover {
+    border: 1px solid white;
+}
+
+div.profileImage1 img {
+    width: 30%;
+    height: auto;
+
+}
+
+div.desc {
+    padding-top: 55px;
+    text-align: center;
+}
+
+
+
